@@ -3,7 +3,7 @@ layout:     post
 title:      Scroll Bottom With React
 date:       2018-02-03 11:21:29
 summary:    Scrolling with React using the Lifecycle Methods and Dom Reference
-categories: jekyll pixyll
+categories: react
 ---
 
 One example could be to have a react component to render comments with CSS Scrolling. When adding a new comment it should autoscroll to the bottom to always view the last comment.

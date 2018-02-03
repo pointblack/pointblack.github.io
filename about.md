@@ -10,4 +10,8 @@ Hi, i am a professional web developer with 10 years experience in Rails & Javasc
 I offer my web development skills via my company:
 [codetastic.io](http://codetastic.io)
 
+Visit my [Github Profile](https://github.com/pointblack)
+
+
+
 I'd love to hear from you.
