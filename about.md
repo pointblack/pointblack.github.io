@@ -11,7 +11,7 @@ Hi,
     Since 2016 im in Love with developing using Rails as Backend and React.js as Frontend Toolchain.
 </p>
 <p>
-    I post about thing i stumble across during my development and share findings to give something back to the community.
+    I post about things i stumble across during development and share findings to give something back to the community.
 </p>
 
 {% include profile_image.html %}
