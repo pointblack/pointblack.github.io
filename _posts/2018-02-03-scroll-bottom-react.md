@@ -12,7 +12,7 @@ To solve this we are going to use React Lifecycle methods `componentWillUpdate` 
 
 First we need to add a reference which we can access in the lifecycle methods:
 
-{% highlight javascript %}
+{% highlight jsx %}
 <div ref={(node) => { this.node = node; }}>
     <Comments />
 </div>
@@ -20,19 +20,21 @@ First we need to add a reference which we can access in the lifecycle methods:
 
 In `componentWillUpdate` we use the ref to set a boolean `shouldScrollBottom` using scrollTop and `offsetHeight`
 
-{% highlight javascript %}
+{% highlight jsx %}
 componentWillUpdate() {
     const node = this.node;
-    this.shouldScrollBottom = node.scrollTop + node.offsetHeight === node.scrollHeight;
+    this.shouldScrollBottom = node.scrollTop +
+        node.offsetHeight === node.scrollHeight;
 }
 {% endhighlight %}
 
 In `componentDidUpdate` we use the bool `shouldScrollBottom` to scroll to the bottom.
 
-{% highlight javascript %}
+{% highlight jsx %}
 componentWillUpdate() {
     const node = this.node;
-    this.shouldScrollBottom = node.scrollTop + node.offsetHeight === node.scrollHeight;
+    this.shouldScrollBottom = node.scrollTop
+        + node.offsetHeight === node.scrollHeight;
 }
 {% endhighlight %}
 
