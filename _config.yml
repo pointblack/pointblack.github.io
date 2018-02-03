@@ -1,10 +1,11 @@
-# Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     ""
-url:         "http://pixyll.com"
+
+paginate: 3
+title:       Rails & React Blog
+email:       florian@codetastic.io
+author:      Florian Klotz
+description: "I love ruby & react development"
+baseurl: "/pointblack.github.io"
+url: "http://pointblack.github.io"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
