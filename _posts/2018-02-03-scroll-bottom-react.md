@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      Scroll Bottom With React
+title:      Scroll Bottom with React
 date:       2018-02-03 11:21:29
-summary:    Scrolling with React using the Lifecycle Methods and Dom Reference
+summary:    Scrolling to bottom with React using the Lifecycle Methods and Dom Reference
 categories: react
 ---
 
