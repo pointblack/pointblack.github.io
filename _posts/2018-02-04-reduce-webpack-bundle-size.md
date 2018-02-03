@@ -16,7 +16,7 @@ it is easy to spot that the package size results of including all supported loca
 
 ![Before]({{ "/images/moment-webpack-before.png" | absolute_url }})
 
-To reduce the bundle size, we configure webpack using webpacks ContextReplacementPluginto to only bundle required locales by the application, in following case DE & EN locales.
+To reduce the bundle size, we configure webpack using `webpack.ContextReplacementPlugin` to to only bundle required locales by the application, in following case DE & EN locales.
 
 We add following snippet to the `webpack.config.js` file:
 
