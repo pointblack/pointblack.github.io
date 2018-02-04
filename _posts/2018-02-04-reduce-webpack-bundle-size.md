@@ -6,10 +6,10 @@ summary:    How to reduce the packaged webpack bundle size of moment.js
 categories: react
 ---
 
-Working with javascript can be tricky some times using vanilla javascript. Especially when introducing different time zone support to an application.
+Working with javascript can be tricky sometimes using vanilla javascript. Especially when introducing different time zone support to an application.
 
 A very good library which helps with date handling in Javascript is [Moment.js](http://momentjs.com/).
-Unfortunately when bundling  moment.js using webpack (v3) with default settings, it results in a rather large package of 455kb size.
+Unfortunately when bundling moment.js using webpack (v3) with default settings, it results in a rather large package of 455kb size.
 
 Using the helpful plugin [Webpack Bundle Analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)
 it is easy to spot that the package size results of including all supported locales:
@@ -23,7 +23,7 @@ We add following snippet to the `webpack.config.js` file:
 {% highlight javascript %}
 new webpack.ContextReplacementPlugin(
   /moment[\/\\]locale$/,
-  /de|fr/
+  /de|en/
 )
 {% endhighlight %}
 
