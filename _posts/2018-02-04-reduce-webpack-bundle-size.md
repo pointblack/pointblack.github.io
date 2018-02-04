@@ -11,7 +11,7 @@ Working with Javascript using Vanilla Javascript can be tricky sometimes. Especi
 A very good library helping with date handling is [Moment.js](http://momentjs.com/).
 Unfortunately, when bundling moment.js using webpack (v3) with default settings, it results in a rather large package size of 455kb.
 
-Using the plugin [Webpack Bundle Analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)
+Using the great plugin [Webpack Bundle Analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)
 helps to spot that the large package size is a result of including all different locales:
 
 ![Before]({{ "/images/moment-webpack-before.png" | absolute_url }})
