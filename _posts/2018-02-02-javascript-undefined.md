@@ -2,11 +2,11 @@
 layout:     post
 title:      Javascript condition & 0 value
 date:       2018-02-02 11:21:29
-summary:    How to prevent headaches with 0 values and javascript conditions
+summary:    How to prevent headaches with 0 values and Javascript conditions
 categories: react
 ---
 
-Recently i had to debug an error caused by a javascript condition:
+Recently, I had to debug an error caused by a Javascript condition:
 
 {% highlight javascript %}
   if (utcOffset) {
@@ -16,7 +16,7 @@ Recently i had to debug an error caused by a javascript condition:
 
 The problem with `utcOffset` param is that i can be a `0` value.
 
-Unfortunatley there is no better way to solve this using the following condition:
+Unfortunatley, there is no better way to solve this than using the following condition:
 
 {% highlight javascript %}
   if (utcOffset !== undefined && utcOffset !== null) {

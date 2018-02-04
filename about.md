@@ -7,11 +7,11 @@ tags: about
 
 Hi,
 <p>
-    i am a professional web developer with 8 years experience in Ruby on Rails & Javascript.
-    Since 2016 im in Love with developing using Rails as Backend and React.js as Frontend Toolchain.
+    I am a professional web developer with 8 years experience in Ruby on Rails & Javascript.
+    Since 2016, I'm in love with developing using Rails as Backend and React.js as Frontend Toolchain.
 </p>
 <p>
-    I post about things i stumble across during development and share findings to give something back to the community.
+    I post about things I stumble across during development and share new findings to give back to the community.
 </p>
 
 {% include profile_image.html %}
@@ -21,4 +21,4 @@ I offer my web development skills via my company:
 
 Visit my [Github Profile](https://github.com/pointblack)
 
-I'd love to hear from you.
+Feel free to comment my entries. I'd love to hear from you.
